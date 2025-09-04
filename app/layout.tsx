@@ -10,7 +10,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="p-4 pt-1  min-h-screen flex flex-col justify-between overflow-x-hidden">
+      <body className="p-4 pt-1  min-h-screennm flex flex-col justify-between overflow-x-hidden ">
         <CustomLayout>
           <Navbar />
           <Toaster richColors />

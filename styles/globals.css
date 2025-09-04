@@ -2,15 +2,15 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #f0f0f0;
-  --foreground: #171717;
-  --primary: rgb(0, 0, 0, 0.8);
-  --secondary: rgb(0, 0, 0, 0.2);
+  --background: #f0f0f0 !important;
+  --foreground: #171717 !important;
+  --primary: rgb(0, 0, 0, 0.8) !important;
+  --secondary: rgb(0, 0, 0, 0.2) !important;
 }
 
 .dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #0a0a0a !important;
+  --foreground: #ededed !important;
 }
 
 @theme inline {
